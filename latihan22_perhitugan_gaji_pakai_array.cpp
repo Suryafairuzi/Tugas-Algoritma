@@ -58,7 +58,7 @@ int main() {
             continue;
         }
 
-        cout << "Pinjaman : "; 
+        cout << "Pinjaman                  : "; 
         cin >> pinjaman[nopepgw];
 
         pajak[nopepgw] = gaji[nopepgw] * 0.05;
@@ -67,13 +67,13 @@ int main() {
 
         // Output detail gaji pegawai
         cout << left;
-        cout << setw(20) << "Jabatan: " << jabatan[nopepgw] << endl;
-        cout << setw(20) << "Gaji: " << gaji[nopepgw] << endl;
-        cout << setw(20) << "Tunjangan: " << tunjangan[nopepgw] << endl;
-        cout << setw(20) << "Pinjaman: " << pinjaman[nopepgw] << endl;
-        cout << setw(20) << "Pajak: " << pajak[nopepgw] << endl;
-        cout << setw(20) << "Total Kotor: " << totlgajiktr[nopepgw] << endl;
-        cout << setw(20) << "Total Bersih: " << totlgajibrh[nopepgw] << endl;
+        cout << setw(20) << "Jabatan                   : " << jabatan[nopepgw] << endl;
+        cout << setw(20) << "Gaji                      : " << gaji[nopepgw] << endl;
+        cout << setw(20) << "Tunjangan                 : " << tunjangan[nopepgw] << endl;
+        cout << setw(20) << "Pinjaman                  : " << pinjaman[nopepgw] << endl;
+        cout << setw(20) << "Pajak                     : " << pajak[nopepgw] << endl;
+        cout << setw(20) << "Total Kotor               : " << totlgajiktr[nopepgw] << endl;
+        cout << setw(20) << "Total Bersih              : " << totlgajibrh[nopepgw] << endl;
         cout << "--------------------------------------------------------\n";
         
         total_biaya += totlgajibrh[nopepgw];
@@ -119,4 +119,3 @@ int main() {
 
     return 0;
 }
-
